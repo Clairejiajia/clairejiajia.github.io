@@ -1,0 +1,460 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+
+
+
+
+
+
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+.wrap {
+    width: 1000px;
+    margin: 0 auto;
+    font-family: 微軟正黑體;
+}
+
+.topmenu {
+    background: #f6f6f6;
+    height: 40px;
+}
+
+.topmenu ul {
+    float: right;
+}
+
+.topmenu li {
+    float: left;
+    padding: 10px 15px;
+    margin-right: 20px;
+}
+
+.topmenu li a {
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.topmenu .fb a {
+    color: #4460a0;
+}
+
+.topmenu .twitter a {
+    color: #00aaec;
+}
+
+.topmenu li a:hover {
+    text-decoration: underline;
+}
+
+.topmenu li a:active {
+    color: #750000;
+    text-decoration: underline;
+}
+
+.logo {
+    float: left;
+    width: 170px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-image: url(../images/logo.png);
+    margin: 5px 0px 5px 30px;
+    display: block;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.menu {
+    width: 320px;
+    float: right;
+
+}
+
+.menu ul {
+    position: absolute;
+}
+
+.menu>li {
+    position: relative;
+}
+
+.menu ul li {
+    float: left;
+    margin-right: 10px;
+}
+
+.menu ul li a {
+    height: 17px;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 15px 20px;
+    color: #00cc99;
+    border-bottom: 3px solid white;
+    background: rgba(255, 255, 255, 0.9);
+
+}
+
+.menu ul li a:hover {
+    border-bottom: 3px solid #00cc99;
+}
+
+.menu ul li a:active,
+.menu ul li a.dropdown.active {
+    color: #6c6c6c;
+    border-bottom: 3px solid #00cc99;
+}
+
+.menu .dropdown-open {
+    display: none;
+     z-index: 30;
+}
+
+.menu ul.dropdown-open {
+    width: 104px;
+    float: left;
+  
+}
+
+
+.menu ul.dropdown-open li a {
+    width: 64px;
+    text-align: center;
+    border-bottom: 1px solid #d0d0d0;
+   
+}
+
+.nivoSlider {
+    width: 1000px;
+    height: 400px;
+    background: #222222;
+}
+
+.content img {
+    width: 300px;
+    height: 152px;
+}
+
+.content ul li {
+    float: left;
+    display: block;
+    width: 300px;
+    height: 360px;
+    margin: 50px 16px;
+    box-shadow: 2px 2px 5px #dbdbdb;
+}
+
+.content h3 {
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    color: #333333;
+}
+
+.content p {
+    font-size: 14px;
+    text-align: left;
+    line-height: 28px;
+    padding: 20px;
+    color: #595757;
+}
+
+.content_table {
+    width: 822px;
+    margin: 0 auto 50px auto;
+}
+
+.content_table h2 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.content_table th,
+.content_table td {
+    width: 205px;
+    height: 25px;
+    border-top: 1px solid #dddddd;
+    ;
+    border-bottom: 1px solid #dddddd;
+    ;
+    padding-top: 10px;
+    text-align: center;
+    color: #333333;
+}
+
+.content_table th {
+    font-weight: bold;
+    background: #f7f7f7;
+}
+
+.content_table tr td span {
+    color: #42b392;
+}
+
+.content_form {
+    height: 405px;
+    background: linear-gradient(#00644b, #009872);
+    margin-bottom: 40px;
+}
+
+.content_form .title {
+    padding: 30px;
+}
+
+.content_form .title h2 {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.content_form .typecontent {
+    float: left;
+    margin-left: 50px;
+}
+
+.content_form .typecontent typearea {
+    width: 425px;
+    height: 220px;
+}
+
+.content_form .info {
+    float: left;
+    width: 425px;
+    margin-left: 50px;
+}
+
+.content_form .info label,
+.content_form .info input {
+    display: block;
+    width: 100%;
+}
+
+.content_form .info label {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.content_form .info input {
+    height: 30px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+.content_form .info input.button {
+    float: right;
+    width: 60px;
+    background: #00cc99;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+.content_form .info input.button:hover {
+    background: #2894ff;
+}
+
+.content_form .info input.button:active {
+    background: #0066cc;
+}
+
+.footer {
+    height: 120px;
+}
+
+.footer img {
+    float: left;
+}
+
+.footer .contact {
+    width: 250px;
+    display: block;
+    float: right;
+    margin-right: 15px;
+}
+
+.footer .contact .tel,
+.footer .contact .mail {
+    float: left;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.footer .contact span {
+    font-size: 18px;
+    color: #333333;
+}
+
+.footer .contact span.pink {
+    font-size: 14px;
+    color: #e12d80;
+}
+
+.gotop {
+ display: none;
+}
+
+.gotop a {
+    display: block;
+    background-image: url(../images/top.png);
+    width: 40px;
+    height: 40px;
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    text-indent: 101%;
+    overflow: hidden;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 31;
+}
+
+
+
+
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
