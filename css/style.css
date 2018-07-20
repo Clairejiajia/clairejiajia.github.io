@@ -350,9 +350,10 @@ table {
     margin-left: 50px;
 }
 
-.content_form .typecontent typearea {
-    width: 425px;
-    height: 220px;
+.content_form .typecontent textarea {
+    width: 405px;
+    height: 200px;
+    padding: 20px;
 }
 
 .content_form .info {
@@ -389,6 +390,7 @@ table {
     color: white;
     padding: 0px;
     margin: 0px;
+    text-align: center;
 }
 
 .content_form .info input.button:hover {
